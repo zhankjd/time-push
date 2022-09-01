@@ -26,9 +26,7 @@ jobs:
       - name: time-push
         run: |
           python3 main.py
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
+    # Steps represent a sequence of tasks that will be executed as part of the jobsteps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
